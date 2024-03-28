@@ -27,7 +27,9 @@ jobs:
     - name: Build Docker image
       run: |
         docker build -t acolomer/docker-graphql:0.0.1 .
+        docker build -t acolomer/docker-graphql:latest .
 
     - name: Push Docker image
       run: |
         docker push acolomer/docker-graphql:0.0.1
+        docker push acolomer/docker-graphql:latest
