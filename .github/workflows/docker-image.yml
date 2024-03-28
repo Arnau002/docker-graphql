@@ -30,4 +30,4 @@ jobs:
 
     - name: Push Docker image
       run: |
-        docker push acolomer/docker-graphql:0.0.1 .
+        docker push acolomer/docker-graphql:0.0.1
